@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: misrobotservicecloud-config-eureka-7001
+
