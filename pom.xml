@@ -104,6 +104,8 @@
         <module>comprehensivefirstaid-config-server-3344</module>
         <module>comprehensivefirstaid-config-client-3355</module>
         <module>comprehensivefirstaid-config-provider-dept-8001</module>
+        <module>springcloudlearning-rabbitMQ-6001</module>
+        <module>springcloudlearning-config-rabbitMQ-6001</module>
     </modules>
 
 </project>
