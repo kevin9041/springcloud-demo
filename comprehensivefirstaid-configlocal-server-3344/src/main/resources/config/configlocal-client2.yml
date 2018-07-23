@@ -1,0 +1,6 @@
+﻿
+server: 
+  port: 8202
+
+
+foo: foo version 1   #定义变量
