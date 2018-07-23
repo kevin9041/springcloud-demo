@@ -10,4 +10,11 @@ spring:
         git:
           uri: https://github.com/snailVei/service-config.git      #GitHub上面的git仓库名字
 
+#          #可丰富的配置
+#          searchPaths: respo #serachPaths 为搜索远程仓库的文件夹
+#          label: master #label git 库的分支名
+#          username: snailVei
+#          password: 556600whb   #如果是私人 Git 库，登录名和密码是必须的
+
+
 
