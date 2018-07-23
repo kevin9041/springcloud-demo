@@ -8,6 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/snailVei/comprehensivefirstaid.git #GitHub上面的git仓库名字
- 
+          uri: https://github.com/snailVei/service-config.git #GitHub上面的git仓库名字
+#          uri: https://github.com/snailVei/comprehensivefirstaid.git
+
 
