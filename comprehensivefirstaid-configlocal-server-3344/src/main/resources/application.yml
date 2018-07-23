@@ -10,7 +10,7 @@ spring:
         native:
           search-locations: classpath:/config #本地配置文件的位置
   profiles:
-    active: test
+    active: native
 
 
 

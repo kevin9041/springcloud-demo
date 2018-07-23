@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      uri: http://config3344.com:3344
+      fail-fast: true
+  application:
+    name: configlocal-client
+
+#  profiles:
+#    active: test
+ 
+

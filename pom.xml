@@ -108,6 +108,7 @@
         <module>springcloudlearning-config-rabbitMQ-6001</module>
         <module>comprehensivefirstaid-turbine-5001</module>
         <module>comprehensivefirstaid-configlocal-server-3344</module>
+        <module>comprehensivefirstaid-configlocal-client-3355</module>
     </modules>
 
 </project>
