@@ -1,0 +1,17 @@
+server: 
+  port: 3344 
+  
+spring:
+  application:
+    name: comprehensivefirstaid-configlocal-server-3344
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config #本地配置文件的位置
+  profiles:
+    active: test
+
+
+
+

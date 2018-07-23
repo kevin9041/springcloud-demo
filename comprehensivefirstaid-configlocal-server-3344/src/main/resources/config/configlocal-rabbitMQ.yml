@@ -9,7 +9,7 @@ server:
 spring: 
   profiles: dev
   application:
-    name: config-rabbit
+    name: configlocal-rabbit
   rabbitmq:
     port: 5672
     host: localhost
@@ -31,7 +31,7 @@ server:
 spring: 
   profiles: test
   application:
-    name: config-rabbit
+    name: configlocal-rabbit
   rabbitmq:
     port: 5672
     host: localhost
