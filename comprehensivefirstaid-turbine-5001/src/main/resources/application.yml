@@ -1,0 +1,53 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: turbine_5001_service
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+      driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+      url: jdbc:mysql://localhost:3306/test1              # 数据库名称
+      username: root
+      password: 556600
+  #    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+  #    url: jdbc:mysql://192.168.10.200:3306/test              # 数据库名称
+  #    username: root
+  #    password: misrobot
+      dbcp2:
+        min-idle: 5                                           # 数据库连接池的最小维持连接数
+        initial-size: 5                                       # 初始化连接数
+        max-total: 5                                          # 最大连接数
+        max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+#turbine:
+#  appConfig: misrobotservicecloud-dept8001-hystrix,turbine_5001_service
+#  aggregator:
+#    clusterConfig: default
+#  clusterNameExpression: new String("default")
+
+turbine:
+  app-config: misrobotservicecloud-dept8001-hystrix,turbine_5001_service
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.misrobot.springcloud.entities    # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
+
+security:
+  basic:
+    enabled: false
+
+
+
+
+
+
+
+
