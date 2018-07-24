@@ -6,9 +6,20 @@ spring:
     password: 556600
   application:
     name: Hello-RabbitMQ
+  cloud:
+    config:
+      name: testrabbit
+      uri: http://config3344.com:3344
+      label: master
 
 server:
   port: 6001
+
+management:
+  security:
+    enabled: false
+
+
 
 
 
