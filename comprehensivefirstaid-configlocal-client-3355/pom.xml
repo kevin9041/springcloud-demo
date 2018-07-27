@@ -4,12 +4,11 @@
 
     <parent>
         <groupId>com.misrobot.springcloud.services</groupId>
-        <artifactId>comprehensivefirstaid</artifactId>
+        <artifactId>springcloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>misrobotservicecloud-configlocal-client-3355</artifactId>
-
+    <artifactId>comprehensivefistaid-configlocal-client-3355</artifactId>
 
     <dependencies>
         <!-- SpringCloud Config客户端 -->

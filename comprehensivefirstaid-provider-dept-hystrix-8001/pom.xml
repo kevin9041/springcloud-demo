@@ -4,11 +4,11 @@
 
     <parent>
         <groupId>com.misrobot.springcloud.services</groupId>
-        <artifactId>comprehensivefirstaid</artifactId>
+        <artifactId>springcloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>comprehensivefirstaid-provider-dept-8001-hystrix</artifactId>
+    <artifactId>comprehensivefirstaid-provider-dept-hystrix-8001</artifactId>
 
     <dependencies>
         <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->

@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>com.misrobot.springcloud.services</groupId>
-        <artifactId>comprehensivefirstaid</artifactId>
+        <artifactId>springcloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>microservicecloud-config-provider-dept-8001</artifactId>
+    <artifactId>comprehensivefirstaid-config-provider-dept-8001</artifactId>
 
     <dependencies>
         <!-- SpringCloudConfig配置 -->

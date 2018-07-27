@@ -4,11 +4,11 @@
 
     <parent>
         <groupId>com.misrobot.springcloud.services</groupId>
-        <artifactId>comprehensivefirstaid</artifactId>
+        <artifactId>springcloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>comprehensivefirstaid-zuul-geteway-9527</artifactId>
+    <artifactId>comprehensivefirstaid-zuul-gateway-9527</artifactId>
     <description>网关服务</description>
 
     <dependencies>
