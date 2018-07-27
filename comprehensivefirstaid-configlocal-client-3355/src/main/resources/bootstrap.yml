@@ -5,5 +5,5 @@ spring:
       fail-fast: true
       profile: dev      #不明觉厉
   application:
-    name: configlocal-client2   #这个地方的取值和3344server端的配置文件同名对应
+    name: comprehensivefirstaid-configlocal-client2   #这个地方的取值和3344server端的配置文件同名对应
 

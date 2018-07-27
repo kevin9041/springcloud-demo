@@ -1,4 +1,4 @@
 spring:
   application:
-    name: misrobotservicecloud-config-eureka-7001
+    name: springcloudlearning-config-rabbitMQ-6001
 

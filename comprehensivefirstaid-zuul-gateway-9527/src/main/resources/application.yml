@@ -3,7 +3,7 @@ server:
  
 spring: 
   application:
-    name: misrobotservicecloud-zuul-gateway
+    name: comprehensivefirstaid-zuul-gateway-9527
  
 eureka: 
   client: 

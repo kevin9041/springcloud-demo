@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>comprehensivefistaid-configlocal-client-3355</artifactId>
+    <artifactId>comprehensivefirstaid-configlocal-client-3355</artifactId>
 
     <dependencies>
         <!-- SpringCloud Config客户端 -->

@@ -1,4 +1,4 @@
 spring:
   application:
-    name: microservicecloud-config-provider-dept
+    name: comprehensivefirstaid-config-provider-dept
 

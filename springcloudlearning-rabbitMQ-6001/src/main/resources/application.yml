@@ -5,7 +5,7 @@ spring:
     username: springcloud
     password: 556600
   application:
-    name: Hello-RabbitMQ
+    name: springcloudlearning-rabbitMQ-6001
   cloud:
     config:
       name: testrabbit
