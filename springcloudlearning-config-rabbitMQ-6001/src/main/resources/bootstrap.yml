@@ -14,6 +14,8 @@ spring:
       label: master
       profile: test
 #      profile: #profile 即使不写value  编译之前都要有空格 （编译后空格消失）
+
+    #刷新配置part1
     bus:
       enabled: true
       trace:
@@ -25,11 +27,14 @@ server:
 management:
   security:
     enabled: false
-    #
+    #刷新配置part2
   endpoints:
     web:
       exposure:
         include: bus-refresh
+
+
+        #http://localhost:6001/bus/refresh  为什么用这个刷新而不是 http://localhost:6001/actuator/bus-refresh ？！
 
 
 
