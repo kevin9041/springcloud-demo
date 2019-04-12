@@ -28,6 +28,8 @@ public class TestRabbit {
     @RequestMapping(value = "/rabbitMQ/test/{message}",method = RequestMethod.GET)
     public void testRabbitMQ(@PathVariable("message") String message){
         //Sender sender=new Sender();   XXX
-        sender.send();
+        sender.amqpTemplateSend();
+        System.out.println("=======================666======================================");
+        sender.rabbitTemplateSend();
     }
 }
